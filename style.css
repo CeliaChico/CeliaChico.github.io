@@ -1,4 +1,8 @@
 h1 {
-
-color:red;
+font-family: Futura, sans-serif;
+    font-weight: 200;
+}
+body {
+    font-family: Futura, sans-serif;
+    color:burlywood
 }
