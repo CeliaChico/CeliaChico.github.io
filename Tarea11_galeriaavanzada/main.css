@@ -11,6 +11,15 @@ h1 {
     font-family: Futura, sans-serif;
 }
 
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
 .blancoynegro img {
     width: 33%;
     height: auto;
@@ -25,6 +34,7 @@ a:hover img {
 .opacity img:hover {
     opacity: 0.5;
 }
+
 
 .imagenpequena img {
     border: 1px solid #ddd;
@@ -42,6 +52,66 @@ a:hover img {
     filter: sepia(100%);
 }
 
+
+.padre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    position:relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /*colocación
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -58,28 +128,16 @@ a:hover img {
   padding: 0 4px;
 }
 
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.contenedorpadre1{
+    display: flex;
+    padding: 0 4px;
+    margin: 5%;
+    background-color: antiquewhite;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+.contenedorpadre2{
+  */
