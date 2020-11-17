@@ -6,7 +6,10 @@
 section {
     background-color: lightgrey;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 h1 {
     font-family: Futura, sans-serif;
 }
