@@ -1,8 +1,12 @@
 body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
+    width: 100%;
 }
 
+#cabecera{
+    width: 100%;
+    }
 
 #cajaSuperior {
     width: 100vw;
@@ -17,14 +21,29 @@ a {
     text-decoration: none;
 }
 
+.movdcha {
+    position: relative;
+    transform: translate(15%);
+    transition: left 1s, transform 1s;
+}
+
+.movdcha{
+    text-decoration-color: antiquewhite;
+    font-family: Helvetica Neue, sans-serif;
+    padding-left: 100px;
+}
+  .movdcha:hover {
+    left: 50px;
+}
+
 #cajaCentral {
     height: 100vh;
     padding: 15vw;
 }
 
-#milista li{
-    display:inline-block;
-    padding:30px;
+#milista li {
+    display: inline-block;
+    padding: 30px;
 
 }
 
@@ -62,9 +81,9 @@ li {
     padding: 10px;
 }
 
-.menu{
+.menu {
     padding: 20px;
-    width: 600px;
+    width: 100%;
     height: 50px;
     background-color: lightgray;
     position: fixed;
@@ -72,7 +91,7 @@ li {
 
 .sin_enlace:hover {
     text-decoration: line-through
-        }
+}
 
 .con_enlace:hover {
     text-decoration: underline;
