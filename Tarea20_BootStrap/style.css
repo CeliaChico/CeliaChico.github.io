@@ -1,0 +1,21 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif
+}
+
+body {
+    font-family: sans-serif, verdana;
+}
+
+.columna{
+    display: block;
+}
+
+.fila { 
+    display: flex;
+}
