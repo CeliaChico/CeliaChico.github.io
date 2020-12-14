@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'Times new roman', serif;
+    color: mediumseagreen;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    color: mediumseagreen;
+    font-size: 18px;
+}
+
+h3 {
+    color: steelblue;
+}
+
+h4 {
+    font-size: 18px;
+    padding: 2px;
+}
+
+body {
+    font-family: sans-serif, verdana;
+}
+
+.columna {
+    display: block;
+}
+
+.fila {
+    display: flex;
+}
+
+.textopeque {
+    font-size: 12px;
+}
+.p-3 {
+  padding: $spacer !important;
+}
+
+
+<div class="container-fluid" > <div class="bg-light text-dark text-center" > <h3 > CELIA CHICO</h3 > </div > </div >
