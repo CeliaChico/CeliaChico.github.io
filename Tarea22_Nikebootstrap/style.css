@@ -1,0 +1,58 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 90px;
+    font-weight: 300;
+    text-align: left;
+    padding: 5%;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    padding: 5%;
+    font-size: 37px;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif
+}
+
+body {
+    font-family: sans-serif, verdana;
+}
+
+.columna{
+    display: block;
+}
+
+.fila { 
+    display: flex;
+}
+
+.indicebajo {
+    list-style: none;
+    font-size: 30px;
+    font-weight: 30px;
+    padding: 5vw;
+    color: black;
+}
+
+.sin_enlace:hover {
+    text-decoration: line-through
+        }
+
+.con_enlace:hover {
+    text-decoration: underline;
+    color: skyblue;
+}
+
+
+.navbar.navbar-2 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+
+.navbar.navbar-3 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a');
+}
+.navbar-static-top
+
