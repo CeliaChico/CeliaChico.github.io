@@ -58,26 +58,66 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
 background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a');
 }
 .navbar-static-top
-.gal {
-	
-	
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-	  
-	
-	}	
-	.gal img{ width: 25%; padding: 7px 0;}
-@media (max-width: 500px) {
-		
-		.gal {
-	
-	
-	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-	  
-	
-	}
-		
-	}
+
+div.galeria {
+border: 1px solid #ccc;
+}
+div.galeria:hover {
+border: 1px solid #777;
+}
+div.galeria img {
+width: 100%;
+height: auto;
+}
+div.desc {
+padding: 15px;
+text-align: center;
+}
+* {
+box-sizing: border-box;
+}
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+.responsive {
+width: 49.99999%;
+margin: 6px 0;
+}
+}
+@media only screen and (max-width: 500px) {
+.responsive {
+width: 100%;
+}
+}
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+
+
+
+
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
