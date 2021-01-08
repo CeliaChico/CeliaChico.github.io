@@ -1,0 +1,123 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 90px;
+    font-weight: 300;
+    text-align: left;
+    padding: 5%;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    padding: 5%;
+    font-size: 37px;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+body {
+    font-family: sans-serif, verdana;
+}
+
+.columna{
+    display: block;
+}
+
+.fila { 
+    display: flex;
+}
+.block{
+    float: inherit;
+}
+.indicebajo {
+    list-style: none;
+    font-size: 30px;
+    font-weight: 30px;
+    padding: 5vw;
+    color: black;
+}
+
+.sin_enlace:hover {
+    text-decoration: line-through
+        }
+
+.con_enlace:hover {
+    text-decoration: underline;
+    color: skyblue;
+}
+
+
+.navbar.navbar-2 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+
+.navbar.navbar-3 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a');
+}
+.navbar-static-top
+
+div.galeria {
+border: 1px solid #ccc;
+}
+div.galeria:hover {
+border: 1px solid #777;
+}
+div.galeria img {
+width: 100%;
+height: auto;
+}
+div.desc {
+padding: 15px;
+text-align: center;
+}
+* {
+box-sizing: border-box;
+}
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+.responsive {
+width: 49.99999%;
+margin: 6px 0;
+}
+}
+@media only screen and (max-width: 500px) {
+.responsive {
+width: 100%;
+}
+}
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+
+
+
+
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
