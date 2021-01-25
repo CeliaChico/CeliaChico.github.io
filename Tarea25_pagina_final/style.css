@@ -26,8 +26,52 @@ body {
     font-family: sans-serif, verdana;
 }
 
+
 .columna{
     display: block;
+}
+
+#galeria img{
+    width: 100%;
+    height: 100%;
+    }
+
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+
+}
+
+#galeria img:hover{
+    border: 8px solid #ffffff 
+}
+
+.div-imagen {
+  display:inline-block;
+  position:relative;
+}
+
+.div-imagen > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+}
+
+.desvanecer:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.centro{
+text-align: center;    
+    justify-items: center;
+    padding: 8wv;
 }
 
 .fila { 
@@ -53,6 +97,14 @@ body {
     color: skyblue;
 }
 
+.abajo{
+    display: flex;
+    flex-flow: column wrap;
+    height: 90vw;
+    width: 100%;
+    margin-left: 10wv;
+}
+
 
 .navbar.navbar-2 .navbar-toggler-icon {
 background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
@@ -62,89 +114,6 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
 background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a');
 }
 .navbar-static-top
-
-div.galeria {
-border: 1px solid #ccc;
-}
-div.galeria:hover {
-border: 1px solid #777;
-}
-div.galeria img {
-width: 100%;
-height: auto;
-}
-div.desc {
-padding: 5px;
-text-align: center;
-}
-
-.responsive {
-/*padding: 0 6px;
-float: left;*/
-width: 24.99999%;
-}
-@media only screen and (max-width: 700px) {
-.responsive {
-width: 49.99999%;
-/*margin: 6px 0;*/
-}
-}
-@media only screen and (max-width: 500px) {
-.responsive {
-width: 100%;
-}
-}
-.clearfix:after {
-content: "";
-display: table;
-clear: both;
-}
-
-
-section{
-	height: 90vw;
-	display: flex;
-	flex-flow: column wrap;
-    justify-content: center;
-	align-items:center;
-}
-
-
-
-
-#photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-   
-  -webkit-column-count: 5;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    5;
-  -moz-column-gap:      0px;
-  column-count:         5;
-  column-gap:           0px;  
-}
-
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-}
-
-
-
-
-
-.text {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-
 
 
 
