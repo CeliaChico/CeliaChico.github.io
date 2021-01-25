@@ -49,13 +49,12 @@ article {
 
 .imagencontacto {
     padding: 10px;
-    width: 500px;
+    width: 100%;
+}
+img.pequeña{
+  width: 50px; height: 50px;
 }
 
-
-.imagenpequena img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 5px;
+.imagenpequena {
+    width: 50px; height: 50px;
 }
