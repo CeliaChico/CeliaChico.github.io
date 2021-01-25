@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Estructura Celia In Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Contacto/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Balsamiq+Sans&family=Bebas+Neue&family=Gamja+Flower&family=Maven+Pro&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar sticky-top navbar-light bg-light">
+
+        <a href="#cabecera"> </a>
+
+        <a class="navbar-brand raleway" href="index.html">
+            CELIA IN DESIGN</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Porfolio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre mi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navbar-->
+    <article>
+        <img src="Contacto/img_contacto/foto_contacto.JPG" alt="contacto" class="">
+    </article>
+    <aside>
+    <!-- INICIO FORMULARIO HTML -->
+    <form method="POST" action="/index.php" class="needs-validation separado" novalidate>
+
+        <div class="form-row mt-5">
+            <div class="col-md-4 mb-3">
+                <label for="validarNombre">Nombre:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarEmail">Email:<span class="red">*</span></label>
+                <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarTelefono">Teléfono:</label>
+                <input class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarTema">Tema:<span class="red">*</span></label>
+                <select class="custom-select" id="validarTema" name="validarTema" required>
+                    <option selected disabled value="">Selecciona...</option>
+                    <option value="Problema con acceso a Web">Problema con acceso a Web</option>
+                    <option value="Propuesta de colaboración">Propuesta de colaboración</option>
+                    <option value="Eliminar mi usuario de la Web">Eliminar mi usuario de la Web</option>
+                    <option value="Otras cuestiones">Otras cuestiones</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarAsunto">Asunto:</label>
+                <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
+            <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="5" min="25" required></textarea>
+        </div>
+
+        <div class="form-group mb-10">
+            <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
+            <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
+        </div>
+
+    </form>
+    </aside>
+</body>
+
+</html>
