@@ -1,0 +1,59 @@
+h1 {
+    font-family: Futura, sans-serif;
+    font-weight: 200;
+}
+
+body {
+    font-family: Futura, sans-serif;
+    color: burlywood
+}
+img{
+    max-width:100%;
+    width:100%;
+    height:100%;
+}
+.box {
+    display: none;
+    width: 100%;
+    padding: 10px;
+}
+
+a:hover + .box,
+.box:hover {
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.separado {
+   padding: 0px 50px 75px 10px;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+aside {
+ 
+    float: right;
+}
+
+article {
+ 
+    float: left;
+}
+
+.imagencontacto {
+    padding: 10px;
+    width: 500px;
+}
+
+iframe{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
